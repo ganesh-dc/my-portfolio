@@ -51,8 +51,8 @@ const cvBtn = document.querySelector('.btn-accent');
 if (cvBtn) {
   cvBtn.addEventListener('click', function () {
     const link = document.createElement('a');
-    link.href = 'ganesh_cs.pdf';
-    link.download = 'ganesh_cs.pdf';
+    link.href = 'Ganesh_CV.pdf';
+    link.download = 'Ganesh_CV.pdf';
     link.click();
   });
 }
