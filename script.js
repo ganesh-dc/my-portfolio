@@ -47,13 +47,6 @@ if (submitBtn) {
   });
 }
 
-const seeMoreBtn = document.querySelector('.btn-outline');
-if (seeMoreBtn) {
-  seeMoreBtn.addEventListener('click', function () {
-    alert('More projects coming soon!');
-  });
-}
-
 const cvBtn = document.querySelector('.btn-accent');
 if (cvBtn) {
   cvBtn.addEventListener('click', function () {
